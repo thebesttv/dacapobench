@@ -48,7 +48,7 @@
 	<!-- BEGIN USER-MODIFIABLE PROPERTIES -->
 	<!-- download mirrors -->
 	<property name="apache.dl.url" value="http://archive.apache.org/dist"/>
-	<property name="sourceforge.dl.url" value="http://easynews.dl.sourceforge.net/sourceforge"/>
+	<property name="sourceforge.dl.url" value="https://master.dl.sourceforge.net/project"/>
 	
 	<!-- external programs -->
 	<property name="make" location="/usr/bin/make"/>
@@ -238,7 +238,7 @@
 	<property name="xalan.url" value="${apache.dl.url}/xml/xalan-j/source"/>
 	<!-- auxilary downloads -->
 	<property name="ant.url" value="${apache.dl.url}/ant/binaries/"/>
-	<property name="itext.url" value="${sourceforge.dl.url}/itext"/>
+	<property name="itext.url" value="https://repo1.maven.org/maven2/com/lowagie/itext"/>
 	<property name="junit.url" value="${sourceforge.dl.url}/junit"/>
 	<property name="python.url" value="http://www.python.org/ftp/python/2.5/"/>
 	<property name="xerces.url" value="${apache.dl.url}/xml/xerces-j/binaries"/>
@@ -576,10 +576,10 @@
 	</target>
 
 	<target name="chart.source" depends="init.sources">
-		<get src="${chart.url}/jfreechart-${chart.version}.tar.gz"
+		<get src="${chart.url}/1.%20JFreeChart/${chart.version}/jfreechart-${chart.version}.tar.gz"
          dest="${sources}/jfreechart-${chart.version}.tar.gz"
        usetimestamp="true"/>
-		<get src="${itext.url}/itext-${itext.version}.jar"
+		<get src="${itext.url}/${itext.version}/itext-${itext.version}.jar"
          dest="${sources}/itext-${itext.version}.jar"
        usetimestamp="true"/>
 	</target>
