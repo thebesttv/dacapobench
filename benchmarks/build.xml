@@ -606,7 +606,7 @@
 	</target>
 
 	<target name="jython.source" depends="init.sources, python.source">
-		<get src="${jython.url}/jython_${jython.version}.jar"
+		<get src="${jython.url}/jython/2.2a1/jython_${jython.version}.jar"
      	dest="${sources}/jython_${jython.version}.jar"  
         usetimestamp="true"/>
 	</target>
