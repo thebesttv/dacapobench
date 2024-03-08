@@ -619,7 +619,7 @@
 
 	<target name="junit.source" depends="init.sources">
 		<get dest="${sources}/junit${junit.version}.zip"
-         src="${junit.url}/junit${junit.version}.zip"
+         src="${junit.url}/junit/${junit.version}/junit${junit.version}.zip"
        usetimestamp="true"/>
 	</target>
 			
