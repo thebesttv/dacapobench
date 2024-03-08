@@ -234,7 +234,7 @@
 	<property name="hsqldb.url" value="${sourceforge.dl.url}/hsqldb"/>
 	<property name="jython.url" value="${sourceforge.dl.url}/jython"/>
 	<property name="lucene.url" value="${apache.dl.url}/lucene/java"/>
-	<property name="pmd.url" value="${sourceforge.dl.url}/pmd"/>
+	<property name="pmd.url" value="https://mirror.its.dal.ca/freebsd/distfiles"/>
 	<property name="xalan.url" value="${apache.dl.url}/xml/xalan-j/source"/>
 	<!-- auxilary downloads -->
 	<property name="ant.url" value="${apache.dl.url}/ant/binaries/"/>
