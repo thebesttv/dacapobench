@@ -600,7 +600,7 @@
 	</target>
 
 	<target name="hsqldb.source" depends="init.sources,junit.source">
-		<get src="${hsqldb.url}/hsqldb_${hsqldb.version}.zip"
+		<get src="${hsqldb.url}/OldFiles/hsqldb_${hsqldb.version}.zip"
     	dest="${sources}/hsqldb_${hsqldb.version}.zip"  
        usetimestamp="true"/>
 	</target>
