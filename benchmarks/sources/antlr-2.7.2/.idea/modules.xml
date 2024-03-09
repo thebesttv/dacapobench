@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/antlr-2.7.2.iml" filepath="$PROJECT_DIR$/antlr-2.7.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/cpp/java/cpp.iml" filepath="$PROJECT_DIR$/examples/cpp/java/cpp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/cpp/cpp1.iml" filepath="$PROJECT_DIR$/examples/cpp/cpp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/csharp/csharp.iml" filepath="$PROJECT_DIR$/examples/csharp/csharp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/java/examples.iml" filepath="$PROJECT_DIR$/examples/java/examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/examples1.iml" filepath="$PROJECT_DIR$/examples/examples1.iml" />
+    </modules>
+  </component>
+</project>
