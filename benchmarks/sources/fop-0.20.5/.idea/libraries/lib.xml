@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/xml-apis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xalan-2.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ant-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xercesImpl-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/batik.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/avalon-framework-cvs-20020806.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
